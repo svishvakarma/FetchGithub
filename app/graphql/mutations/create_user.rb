@@ -1,4 +1,4 @@
-class Mutations::CreateUser < Mutations::BaseMutation\
+class Mutations::CreateUser < Mutations::BaseMutation
     argument :username, String, required: true
     argument :repositories_count, Integer, required: true
     field :user, Types::UserType, null: false
@@ -13,15 +13,13 @@ class Mutations::CreateUser < Mutations::BaseMutation\
       user = User.new(username: username, repositories_count: repositories_count)
   
       if user.save
-        fetch_public_repositories(username: username)
+        fetch_public_repositories(username:)
        
         { user: user, errors: [] }
       else
         { user: nil, errors: user.errors.full_messages }
       end
     end
-
-
     
     def find_user_and_validate_github(username:)
       context = self.context

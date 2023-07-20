@@ -1,17 +1,27 @@
 module Types
+  
   class QueryType < Types::BaseObject
-    # Add `node(id: ID!) and `nodes(ids: [ID!]!)`
+
     include GraphQL::Types::Relay::HasNodeField
     include GraphQL::Types::Relay::HasNodesField
 
-    # Add root-level fields here.
-    # They will be entry points for queries on your schema.
+    field :find_user_and_validate_github,
+          String,
+          null: false,
+    description: "Find a user in the database and validate their GitHub profile" do 
+          argument :username, String, required: true
+        end
 
-    # TODO: remove me
-    field :test_field, String, null: false,
-      description: "An example field added by the generator"
-    def test_field
-      "Hello World!"
+    def find_user_and_validate_github(username:)
+      context = self.context
+      errors = context.errors
+      url = "https://api.github.com/users/#{username}/repos"
+      response = HTTParty.get(url)
+      if response.code != 200
+        raise GraphQL::ExecutionError, 'User not found on GitHub'
+      end
+      "User found on GitHub"
+      true
     end
   end
 end

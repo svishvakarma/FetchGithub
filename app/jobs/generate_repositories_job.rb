@@ -1,0 +1,2 @@
+class GenerateRepositoriesJob < ApplicationJob 
+end 

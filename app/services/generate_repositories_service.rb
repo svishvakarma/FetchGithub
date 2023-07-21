@@ -13,8 +13,7 @@ class GenerateRepositoriesService
     repo_hash = collect_repo_info.map do |repo|
       user_avatar_url = repo['owner']['avatar_url'] || repo['owner']['gravatar_url']
       {
-        title: repo['name'], star_count: repo['stargazers_count'],
-        language: repo['language'], url: repo['html_url']
+        title: repo['name'],language: repo['language'], url: repo['html_url']
       }
     end
 

@@ -13,8 +13,6 @@ class Mutations::CreateUser < Mutations::BaseMutation
       user = User.new(username: username, repositories_count: repositories_count)
   
       if user.save
-        fetch_public_repositories(username:)
-       
         { user: user, errors: [] }
       else
         { user: nil, errors: user.errors.full_messages }
@@ -31,9 +29,5 @@ class Mutations::CreateUser < Mutations::BaseMutation
       end
       "User found on GitHub"
       true
-    end
-
-    def fetch_public_repositories(username:)
-      GenerateRepositoriesJob.perform_now(username:)
     end
 end

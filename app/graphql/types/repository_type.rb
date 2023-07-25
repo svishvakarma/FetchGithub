@@ -5,6 +5,10 @@ module Types
     field :id, ID, null: false
     field :title, String, null: false
     field :language, String
+    field :watchers, Integer
+    field :default_branch, String
+    field :clone_url, String
+    field :repositories_count, String
     field :url, String
     field :user_id, Integer
     field :user, Types::UserType, null: false

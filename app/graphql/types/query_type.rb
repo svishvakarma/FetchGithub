@@ -8,7 +8,7 @@ module Types
       argument :username, ID, required: true
     end
 
-    field :call, Types::RepositoryType, null: true do
+    field :call, [Types::RepositoryType], null: true do
       argument :username ,ID, required: true
     end
  
@@ -24,7 +24,8 @@ module Types
           id: index,
           title: repo['name'],
           language: repo['language'],
-          url: repo['html_url']
+          url: repo['html_url'],
+          username: repo['username']
         }
       end
     
@@ -35,22 +36,9 @@ module Types
       puts "repo_hash: #{repo_hash.inspect}"
       create_repository(repo_hash:)
       update_user_avatar(user_avatar_url:) if user_avatar_url
-      repo_hash.each do |repo|
-        id = repo[:id]
-        title = repo[:title]
-        language = repo[:language]
-        url = repo[:url]
-
-      puts "Repository ID: #{id}"
-      puts "Title: #{title}"
-      puts "Language: #{language}"
-      puts "URL: #{url}"
-      puts "-----------------------"
-    end
-
+      repo_hash
     end
     
-
     def collect_repo_info(username:)
       url = BASE_URL + "/users/#{username}/repos"
       response = HTTParty.get(url)

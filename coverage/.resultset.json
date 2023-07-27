@@ -1,25 +1,25 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/developer/githubfetch/FetchGithub/spec/graphql/first_spec.rb": {
+      "/home/developer/graphql/FetchGithub/spec/graphql/first_spec.rb": {
         "lines": [
 
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/spec/graphql/mutations/create_user_spec.rb": {
+      "/home/developer/graphql/FetchGithub/spec/graphql/mutations/create_user_spec.rb": {
         "lines": [
           1,
           null,
-          1,
-          2,
-          2,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null,
           null,
@@ -28,7 +28,7 @@
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/spec/rails_helper.rb": {
+      "/home/developer/graphql/FetchGithub/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -69,7 +69,7 @@
           0,
           0,
           null,
-          1,
+          0,
           null,
           null,
           null,
@@ -91,17 +91,12 @@
           null,
           null,
           null,
-          1,
+          0,
           null,
           null,
           null,
           null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
+          0,
           null,
           null,
           null,
@@ -111,10 +106,15 @@
           null,
           null,
           null,
-          1,
           null,
           null,
-          1,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null,
+          0,
           null,
           null,
           null,
@@ -124,7 +124,7 @@
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/config/environment.rb": {
+      "/home/developer/graphql/FetchGithub/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -133,7 +133,7 @@
           1
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/config/application.rb": {
+      "/home/developer/graphql/FetchGithub/config/application.rb": {
         "lines": [
           1,
           null,
@@ -159,7 +159,7 @@
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/config/boot.rb": {
+      "/home/developer/graphql/FetchGithub/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -167,7 +167,7 @@
           1
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/config/environments/development.rb": {
+      "/home/developer/graphql/FetchGithub/config/environments/development.rb": {
         "lines": [
           1,
           null,
@@ -241,7 +241,7 @@
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/config/initializers/assets.rb": {
+      "/home/developer/graphql/FetchGithub/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -257,7 +257,7 @@
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/config/initializers/content_security_policy.rb": {
+      "/home/developer/graphql/FetchGithub/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -268,38 +268,6 @@
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/config/initializers/filter_parameter_logging.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/config/initializers/inflections.rb": {
-        "lines": [
           null,
           null,
           null,
@@ -318,7 +286,39 @@
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/config/initializers/permissions_policy.rb": {
+      "/home/developer/graphql/FetchGithub/config/initializers/filter_parameter_logging.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/config/initializers/inflections.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/config/initializers/permissions_policy.rb": {
         "lines": [
           null,
           null,
@@ -333,7 +333,7 @@
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/config/routes.rb": {
+      "/home/developer/graphql/FetchGithub/config/routes.rb": {
         "lines": [
           1,
           1,
@@ -347,276 +347,30 @@
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/app/helpers/application_helper.rb": {
+      "/home/developer/graphql/FetchGithub/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/mutations/create_user.rb": {
+      "/home/developer/graphql/FetchGithub/spec/types/query_type_spec.rb": {
         "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
           1,
           null,
           0,
+          0,
+          0,
           null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
           0,
           null,
           null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/mutations/base_mutation.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/base_argument.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/base_field.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/base_input_object.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/base_object.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/base_edge.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/base_connection.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/user_type.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
+          0,
           0,
           null,
           null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/repository_type.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/spec/types/query_type_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          4,
-          2,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/query_type.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          11,
-          null,
-          11,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          11,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          11,
-          11,
-          11,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
+          0,
+          0,
           0,
           null,
           null,
@@ -625,36 +379,7 @@
           null,
           null,
           null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/models/user.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/fetch_github_schema.rb": {
-        "lines": [
-          1,
-          1,
-          1,
           null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
           null,
           null,
           null,
@@ -663,51 +388,15 @@
           null,
           null,
           null,
-          1,
-          null,
+          0,
           null,
           0,
           null,
           null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          null,
-          0,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/graphql/types/mutation_type.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/developer/githubfetch/FetchGithub/app/models/repository.rb": {
-        "lines": [
-          1,
-          1,
           null
         ]
       }
     },
-    "timestamp": 1690381195
+    "timestamp": 1690461119
   }
 }

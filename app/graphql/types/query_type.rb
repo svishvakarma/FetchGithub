@@ -14,6 +14,7 @@ module Types
     BASE_URL = 'https://api.github.com'
 
     def getRepo(username:)
+      byebug
       user_hash = { "username" => username }
       user_avatar_url = nil
       username = user_hash["username"]

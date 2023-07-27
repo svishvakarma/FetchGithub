@@ -21,7 +21,6 @@ class Mutations::CreateUser < Mutations::BaseMutation
     
     def find_user_and_validate_github(username:)
       context = self.context
-      errors = context.errors
       url = "https://api.github.com/users/#{username}/repos"
       response = HTTParty.get(url)
       if response.code != 200

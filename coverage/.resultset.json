@@ -1,12 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/developer/graphql/FetchGithub/spec/graphql/first_spec.rb": {
-        "lines": [
-
-        ]
-      },
-      "/home/developer/graphql/FetchGithub/spec/graphql/mutations/create_user_spec.rb": {
+      "/home/developer/graphql/FetchGithub/spec/types/query_type_spec.rb": {
         "lines": [
           1,
           null,
@@ -17,12 +12,26 @@
           1,
           1,
           1,
-          0,
-          0,
-          0,
+          1,
           null,
           null,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
           null,
           null,
           null
@@ -353,70 +362,81 @@
           null
         ]
       },
-      "/home/developer/graphql/FetchGithub/app/graphql/mutations/create_user.rb": {
+      "/home/developer/graphql/FetchGithub/app/graphql/types/query_type.rb": {
         "lines": [
           1,
           1,
           1,
           1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
           1,
           null,
           1,
           1,
-          0,
+          1,
+          1,
+          1,
+          1,
+          11,
           null,
-          0,
-          0,
+          11,
           null,
-          0,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
+          11,
           null,
-          null
-        ]
-      },
-      "/home/developer/graphql/FetchGithub/app/graphql/mutations/base_mutation.rb": {
-        "lines": [
-          1,
+          null,
           1,
           1,
           1,
           1,
           1,
           null,
-          null
-        ]
-      },
-      "/home/developer/graphql/FetchGithub/app/graphql/types/base_argument.rb": {
-        "lines": [
-          1,
-          1,
           null,
-          null
-        ]
-      },
-      "/home/developer/graphql/FetchGithub/app/graphql/types/base_field.rb": {
-        "lines": [
+          1,
           1,
           1,
           1,
           null,
-          null
-        ]
-      },
-      "/home/developer/graphql/FetchGithub/app/graphql/types/base_input_object.rb": {
-        "lines": [
+          null,
           1,
           1,
           1,
+          11,
+          11,
+          11,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
@@ -452,23 +472,19 @@
           null
         ]
       },
-      "/home/developer/graphql/FetchGithub/app/graphql/types/user_type.rb": {
+      "/home/developer/graphql/FetchGithub/app/graphql/types/base_field.rb": {
         "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
           null,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/app/graphql/types/base_argument.rb": {
+        "lines": [
           1,
-          0,
-          null,
+          1,
           null,
           null
         ]
@@ -500,122 +516,22 @@
           null
         ]
       },
-      "/home/developer/graphql/FetchGithub/spec/types/query_type_spec.rb": {
+      "/home/developer/graphql/FetchGithub/app/graphql/types/user_type.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          4,
-          2,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
           null,
           null,
           1,
           1,
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/developer/graphql/FetchGithub/app/graphql/types/query_type.rb": {
-        "lines": [
           1,
           1,
           1,
           1,
-          null,
           1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
           1,
           null,
           1,
           0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          0,
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           null
@@ -675,11 +591,114 @@
           1,
           null,
           1,
+          1,
           null,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/app/graphql/mutations/create_user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/app/graphql/mutations/base_mutation.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/app/graphql/types/base_input_object.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/app/graphql/mutations/update_user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/developer/graphql/FetchGithub/app/models/repository.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       }
     },
-    "timestamp": 1690461244
+    "timestamp": 1690464318
   }
 }
